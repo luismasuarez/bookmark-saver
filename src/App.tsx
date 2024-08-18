@@ -1,5 +1,7 @@
+import Home from "@/modules/Home/Home";
+
 function App() {
-  return <p>Bookmark Saver</p>;
+  return <Home />;
 }
 
 export default App;
