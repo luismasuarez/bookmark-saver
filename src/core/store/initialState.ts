@@ -1,11 +1,11 @@
 import { TBookmark } from "../types";
 
 export interface IBookmarkState {
-  bookmarks: TBookmark[];
+  bookmarks: TBookmark[] | null;
 }
 
 const initialState: IBookmarkState = {
-  bookmarks: [],
+  bookmarks: null,
 };
 
 export default initialState;

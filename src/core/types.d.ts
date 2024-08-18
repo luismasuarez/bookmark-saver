@@ -4,5 +4,5 @@ export type TBookmark = {
   category: string;
   description?: string;
   tags?: string[];
-  cardColor: string;
+  cardColor?: string;
 };
